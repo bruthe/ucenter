@@ -217,6 +217,7 @@ concat_lines() {
 }
 
 export MAVEN_PROJECTBASEDIR=${MAVEN_BASEDIR:-$(find_maven_basedir)}
+MAVEN_OPTS="-Duser.home=/path/user $MAVEN_OPTS"
 MAVEN_OPTS="$(concat_lines "$MAVEN_PROJECTBASEDIR/.mvn/jvm.config") $MAVEN_OPTS"
 
 # Provide a "standardized" way to retrieve the CLI args that will
