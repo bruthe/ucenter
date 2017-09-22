@@ -4,6 +4,9 @@
   "description": "Description for ucenter",
   "private": true,
   "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org"
+  },
   "cacheDirectories": [
     "node_modules"
   ],
